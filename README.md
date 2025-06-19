@@ -45,20 +45,20 @@ bash
 # Masuk ke MySQL
 mysql -u root -p
 
-# Buat database baru
+# Di MySQL prompt, jalankan:
 CREATE DATABASE db_time;
 
-# Keluar dari MySQL
+# Keluar dari MySQL prompt
 exit
 
-# Import file SQL ke database
+# Import struktur dan data ke database
 mysql -u root -p db_time < db_time.sql
 
 
 ### 3. Edit konfigurasi database
 
 bash
-# Buka file config dan sesuaikan user, password, dan nama database
+# Buka file konfigurasi database dan sesuaikan user, password, serta nama database
 nano config/database.php
 
 
